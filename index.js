@@ -1,11 +1,14 @@
 let meta = {
-    value: "meta1",
-    address: 2,
+    value: "meta0",
     checked: true,
-    log: (info) => {
-        console.log(info)
-    }
 }
 
-meta.value = "meta2"
-meta.log(meta.value)
+let metas = [
+    meta,
+    {
+        value: "meta1",
+        checked: false
+    }
+]
+
+console.log(metas[1].value)
