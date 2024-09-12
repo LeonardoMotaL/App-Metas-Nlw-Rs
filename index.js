@@ -1,8 +1,3 @@
-const msg = "dia!"
+let msg = ["dia!", "Bom"]
 
-{
-    const msg = "bão "
-    console.log(msg)
-}
-
-console.log(msg);
+console.log(msg[1] + " " + msg[0]);
