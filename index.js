@@ -1,3 +1,11 @@
-let msg = ["dia!", "Bom"]
+let meta = {
+    value: "meta1",
+    address: 2,
+    checked: true,
+    log: (info) => {
+        console.log(info)
+    }
+}
 
-console.log(msg[1] + " " + msg[0]);
+meta.value = "meta2"
+meta.log(meta.value)
