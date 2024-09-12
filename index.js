@@ -1,14 +1,8 @@
-let meta = {
-    value: "meta0",
-    checked: true,
-}
-
-let metas = [
-    meta,
-    {
-        value: "meta1",
-        checked: false
+const start = () => {
+    let contador = 1
+    while(contador <= 10){
+        console.log(contador)
+        contador ++
     }
-]
-
-console.log(metas[1].value)
+}
+start()
